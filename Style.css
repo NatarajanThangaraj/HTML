@@ -1,0 +1,7 @@
+form{
+    width:270px;height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: 'Segoe UI';
+   padding: 5px;
+}
