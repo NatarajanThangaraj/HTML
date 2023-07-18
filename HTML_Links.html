@@ -2,6 +2,35 @@
 <html>
     <head>
         <title>Links of HTML</title>
+        <style>
+            a:link{
+                color:black;
+                font-size:large;
+                font-weight:bold;
+                text-decoration: none;
+            }
+            a:visited{
+                color:purple;
+            }
+            a:hover{
+                color:orange;
+            }
+            a:active{
+                color: red;
+            }
+           div{
+            height:100vh;width:100vh;
+            border:1px solid black;
+            position: relative;
+           }
+           span{
+            height:auto;width:auto;
+            font-size:50px;
+            border:2px solid blue;
+          position: absolute;
+          bottom:0px;
+           }
+        </style>
     </head>
     <body>
         <a href="https://www.google.com/">Click here</a>
@@ -9,5 +38,16 @@
         <a href="https://www.google.com/" target="_blank">Click here</a>
          <p>if we wnat open the link in the same page(self)</p>
          <a href="https://www.yahoo.com/" target="_self">Click here</a>
+                     <!-- Link-Colors -->
+        <p>I write How the<mark>Link colors</mark> were worked</p>
+        <a href="https:/www.google.com/ " target="_blank">Google</a><br>
+        <a href="https:/www.yahoo.com/ " target="_top">Yahoo</a>
+                  <!--HTML-Bookmarks-->
+                  <p>In many E-book have this feature.If we read a page and put the point on there
+                    In next time we click it it goes that page
+                  </p>
+                  <a href="#box">box</a>
+
+                  <div ><span id="box">i am a box</span></div>
     </body>
 </html>
