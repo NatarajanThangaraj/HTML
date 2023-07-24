@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,tr,th,td{
+            border:2px solid black;
+            border-collapse:collapse;
+        }
+        td{
+            padding: 10px;
+        }
+        th{
+            padding: 15px;
+            /* background-color: lightgrey; */
+        }
+        tr:nth-child(even){
+            background-color:rgba(127, 194, 199, 0.4);
+        }
+        th:nth-child(even),td:nth-child(even){
+            background-color:rgba(127, 194, 199, 0.4);
+        }
+        .FirstTea,.Lunch,.SecTea{
+            font-size: 20px;
+            padding-left:20px;
+            /* background-color: lightcyan; */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption> My Time Table</caption>
+        <tr>
+            <th></th>
+            <th>9.00 - 10.00 </th>
+            <th>10.00 - 11.00 </th>
+            <th>11.00 - 11.15 </th>
+            <th>11.15 - 1.45</th>
+            <th>1.45 - 2.30</th>
+            <th>2.30 - 3.30</th>
+            <th>3.30 - 4.00 </th>
+            <th>4.00 - 7.00 </th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>Tamil</td>
+            <td>English</td>
+            <td class="FirstTea" Rowspan="5";>TEA</td>
+            <td>Maths</td>
+            <td  class="Lunch"Rowspan="5">Lunch</td>
+             <td>Science</td>
+             <td class="SecTea" Rowspan="5">TEA</td>
+             <td>Social Science</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>Social Science</td>
+            <td>Maths</td>
+            <td>English</td>
+             <td>Tamil</td>
+             <td>Science</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Science</td>
+             <td>Social Science</td>
+             <td>Tamil</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>Tamil</td>
+            <td>Maths</td>
+            <td>English</td>
+             <td>Science</td>
+             <td>Social science</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>Maths</td>
+            <td>Tamil</td>
+            <td>Social Science</td>
+             <td>English</td>
+             <td>Science</td>
+        </tr>
+    </table>
+</body>
+</html>
