@@ -1,7 +1,87 @@
-form{
-    width:270px;height: 350px;
-    border: 1px solid black;
-    border-radius: 15px;
-    font-family: 'Segoe UI';
-   padding: 5px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
+body{   
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d2b3a;
+}
+.wrapper{
+    position:relative;
+    border:1px solid white;
+    width: 350px;
+    height:380px;
+    padding: 20px;
+    
+}
+.inputfield input{
+    height:40px;
+    width:80%;
+    border:1px solid lightgreen;
+    background: none;
+}
+.inputfield{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.inputspan{
+    position: absolute;
+    left: 40px;
+    bottom:5px;
+ font-size: x-small;
+}
+h2{
+    font-family:'Franklin Gothic Medium';
+    font-weight: 100;
+    text-align: center;
+}
+.checkBox{
+    width: 70%;
+    margin-left: 20px;
+    font-size:x-small;
+    border: 1px solid orangered;
+    padding: 10px;
+   
+}
+ a{
+    font-size:x-small;
+    text-align: right;
+    text-decoration: none;
+   
+    
+}
+.checkBox span{
+    text-align: left;
+}
+.checkBox input{
+    width:20px;
+}
+
+.loginbutton{
+ text-align: center;
+ font-family: 'Franklin Gothic Medium';
+ width:70%;
+ position: absolute;
+left: 50px;
+bottom: 50px;
+border:2px solid greenyellow;
+border-radius:10px 10px 10px 10px;
+padding:10px;
+
+}
+input:focus~.inputspan{
+    background-color:transparent;
+    left: 40px;
+    top:-5px;
+   
+}
+
+
+
+
