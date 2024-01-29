@@ -9,7 +9,7 @@ Welcome to my HTML Learning Repository! 🚀 This repository is dedicated to tra
 - [Folder Structure](#folder-structure)
 - [Resources](#resources)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
